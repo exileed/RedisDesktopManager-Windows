@@ -55,7 +55,7 @@ deploy:
   description: "[Thank you RedisDesktopManager](https://github.com/uglide/RedisDesktopManager/releases/tag/$(RDM_VERSION))"
   provider: GitHub
   auth_token:
-    secure: 3BFf8EhHwdlpCZJpwS8/8EizWPFKs9CJPYLL9RLaRZtNMtLWuVtAixRtZTogb0Af # your encrypted token from GitHub
+    secure: r1Wpt4LJIZ10ES+3V3TyB5tkj8qzwhJFXg31hV/I6YLmXPmEVcPEwrx2eZVaGwAw # your encrypted token from GitHub
   artifact: redis-desktop-manager-$(RDM_VERSION).zip   # upload all NuGet packages to release assets
   draft: false
   prerelease: false
