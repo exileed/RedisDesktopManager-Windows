@@ -1,0 +1,16 @@
+Index: src/qredisclient/connection.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/qredisclient/connection.cpp	(revision 4b0457352be72206ce77b3bff16dd22640e769a3)
++++ src/qredisclient/connection.cpp	(date 1586977287907)
+@@ -11,6 +11,8 @@
+ #include "utils/compat.h"
+ #include "utils/sync.h"
+ 
++#define SSH_SUPPORT
++
+ #ifdef SSH_SUPPORT
+ #include "sshtransporter.h"
+ #endif
